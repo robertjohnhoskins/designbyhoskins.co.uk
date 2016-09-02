@@ -1,0 +1,40 @@
+.section{
+  padding: 2em 0 2em 0;
+
+  &--red {
+    background-color: $red;
+    h1,h2,h3,h4,h5,h6 {
+      color: $yellow;
+    }
+    p {
+      color: white;
+    }
+    a {
+      color: $yellow;
+    }
+  }
+  &--yellow {
+    background-color: $yellow;
+    h1,h2,h3,h4,h5,h6 {
+      color: $red;
+    }
+    p {
+      color: white;
+    }
+    a {
+      color: $red;
+    }
+  }
+  &--gray {
+    background-color: $dark-gray;
+    h1,h2,h3,h4,h5,h6 {
+      color: $yellow;
+    }
+    p {
+      color: white;
+    }
+    a {
+      color: $yellow;
+    }
+  }
+}
